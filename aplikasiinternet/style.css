@@ -1,0 +1,53 @@
+
+
+.input{
+    margin-top: 10px;
+}
+
+input[type=text], input[type=submit]{
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(33, 151, 206);
+    border-radius: 5px;   
+}
+
+
+input[type=submit]{
+    margin-top: 0;
+    background-color: rgb(29, 179, 248);
+}
+
+
+input[type=submit]:hover{
+    background-color: rgb(33, 151, 206);
+}
+
+table, th, td{
+    color: rgb(128, 128, 128);
+    border: 1px solid;
+    text-align: center;
+}
+
+table{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+th{
+    padding: 5px 0;
+}
+
+th{
+    color: rgb(253, 253, 253);
+}
+td{
+    color: rgb(128, 128, 128);
+}
+
+button.button{
+    margin-right: 10px; background-color: rgb(29, 179, 248); border: 1px solid rgb(33, 151, 206); border-radius: 5px; height: 30;
+}
+button.button:hover{
+    background-color: rgb(33, 151, 206); 
+}
